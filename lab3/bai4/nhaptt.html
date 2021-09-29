@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Trang thông tin</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Điền thông tin</legend>
+        
+            <form action="xuly.php" method="POST"> 
+                <table >
+                    <tr>
+                        <td>
+                            Họ và tên :
+                        </td>
+                        <td>
+                            <input type="text" name="txtFullname" size="100" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Địa chỉ : 
+                        </td>
+                        <td>
+                            <input type="text" name="txtAdd" size="100" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Số điện thoại: 
+                        </td>
+                        <td>
+                            <input type="text" name="txtPhone" size="12" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Giới tính :
+                        </td>
+                        <td>
+                            <input type="radio" name="txtGT" value="Nam" checked/> Nam
+                            <input type="radio" name="txtGT" value="Nữ" /> Nữ
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Quốc tịch :
+                        </td>
+                        <td>
+                            <select name="txtQT">
+                                <option value="Việt Nam">Việt Nam</option>
+                                <option value="Mỹ">Mỹ</option>
+                                <option value="Nga">Nga</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Các môn học :
+                        </td>
+                        <td>
+                            <input type="checkbox" name="MH1" value="PHP&MySQL"/> PHP&MySQL
+                            <input type="checkbox" name="MH2" value="C#" /> C#
+                            <input type="checkbox" name="MH3" value="XML" /> XML
+                            <input type="checkbox" name="MH4" value="Python" /> Python
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Ghi chú:
+                        </td>
+                        <td>
+                            <textarea name="comment" rows="3" cols="40"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <input type="submit" value="Gửi" />
+                <input type="reset" value="Hủy" />
+            </form>
+    </fieldset>
+    </body>
+   
+</html>
