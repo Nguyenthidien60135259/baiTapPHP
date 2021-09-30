@@ -2,6 +2,18 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Thông tin đăng nhập</title>
+    <style>
+        td {
+            color: blue;
+        }
+        h3{
+            font-family: verdana;
+            text-align: left;
+            /* text-anchor: middle; */
+            color: #ff2f00;
+            font-size: medium;
+        }
+    </style>
 </head>
 <body>
     
