@@ -4,7 +4,7 @@
     <title>Thông tin đăng nhập</title>
     <style>
         td {
-            color: blue;
+            color:#2c0bbe99;
         }
         h3{
             font-family: verdana;
